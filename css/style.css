@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Smooch&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/*BODY*/
+body {
+  background-image: url("../img/darkness.png");
+  max-width: 80%;
+  margin: auto;
+  color: #8dedff;
+  font-size: 16px;
+}
+
+/*HEADER*/
+header .contenedor-header {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+header img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+header .imagen-encima {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  max-width: 23%;
+}
+
+header .imagen-encima img {
+  border-radius: 50%;
+  border: solid #000 0.5px;
+}
+
+header .texto-header {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header .header-titulo {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+header .header-subTitulo {
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+/*MAIN*/
+main {
+  max-width: 100%;
+  display: flex;
+}
+
+main .sec-izq,
+main .sec-der {
+  padding: 30px;
+}
+
+main .sec-izq {
+  width: 35%;
+  background-color: #000;
+}
+
+main .sec-der {
+  width: 65%;
+  background-color: #332f2c;
+}
+
+/*SECCION IZQ*/
+main .sec-izq .titulo {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+main .fa-horizontal-rule {
+  font-size: 70px;
+  color: #239fd0;
+}
+
+main ul {
+  list-style-position: inside;
+}
+
+main .sec-izq .contacto ul {
+  list-style: none;
+}
+main a {
+  text-decoration: none;
+  color: #8dedff;
+}
+main a:hover {
+  color: #239fd0;
+}
+
+main .sec-izq li {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+main .sec-izq .habilidades-tecnicas,
+main .sec-izq .experiencia {
+  margin-top: 60px;
+}
+main .sec-izq .descarga-CV {
+  color: white;
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+/*SECCION DER*/
+main .sec-der .titulo {
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+main .sec-der li {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+main .sec-der .capacitacion-academica,
+main .sec-der .experiencia-laboral {
+  margin-top: 60px;
+}
+
+main .sec-der h3 {
+  font-size: 29px;
+  font-family: "italic", cursive;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+main .sec-der h4 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+main .sec-der p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-bottom: 5px;
+}
+
+main .sec-der div {
+  margin-bottom: 35px;
+}
+
+@media (max-width: 1550px) {
+  body {
+    max-width: 92%;
+  }
+  header .header-titulo {
+    font-size: 50px;
+  }
+  header .header-subTitulo {
+    font-size: 28px;
+  }
+  main .sec-izq {
+    width: 40%;
+  }
+  main .sec-der {
+    width: 60%;
+  }
+}
+@media (max-width: 1200px) {
+  body {
+    max-width: 100%;
+  }
+  header .header-titulo {
+    font-size: 45px;
+  }
+  header .header-subTitulo {
+    font-size: 24px;
+  }
+  main .sec-izq {
+    width: 45%;
+  }
+  main .sec-der {
+    width: 55%;
+  }
+  main .sec-izq .titulo {
+    font-size: 25px;
+  }
+  main .sec-izq li {
+    font-size: 20px;
+  }
+  main .sec-izq .descarga-CV {
+    font-size: 18px;
+  }
+  main .sec-der .titulo {
+    font-size: 30px;
+  }
+
+  main .sec-der li {
+    font-size: 23px;
+  }
+  main .sec-der h3 {
+    font-size: 24px;
+  }
+
+  main .sec-der h4 {
+    font-size: 25px;
+  }
+
+  main .sec-der p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 891px) {
+  body {
+    max-width: 100%;
+  }
+  header .header-titulo {
+    font-size: 35px;
+  }
+  header .header-subTitulo {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  main .sec-izq {
+    width: 45%;
+  }
+  main .sec-der {
+    width: 55%;
+  }
+  main .sec-izq .titulo {
+    font-size: 22px;
+  }
+  main .sec-izq li {
+    font-size: 17px;
+  }
+  main .sec-izq .descarga-CV {
+    font-size: 15px;
+  }
+  main .sec-der .titulo {
+    font-size: 25px;
+  }
+
+  main .sec-der li {
+    font-size: 21px;
+  }
+  main .sec-der h3 {
+    font-size: 21px;
+  }
+
+  main .sec-der h4 {
+    font-size: 22px;
+  }
+
+  main .sec-der p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 704px) {
+  body {
+    max-width: 100%;
+  }
+  header .header-titulo {
+    font-size: 30px;
+  }
+  header .header-subTitulo {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  main .sec-izq {
+    width: 45%;
+  }
+  main .sec-der {
+    width: 55%;
+  }
+  main .sec-izq .titulo {
+    font-size: 17px;
+  }
+  main .sec-izq li {
+    font-size: 12px;
+  }
+  main .sec-izq .descarga-CV {
+    font-size: 13px;
+  }
+  main .sec-der .titulo {
+    font-size: 20px;
+  }
+
+  main .sec-der li {
+    font-size: 16px;
+  }
+  main .sec-der h3 {
+    font-size: 16px;
+  }
+
+  main .sec-der h4 {
+    font-size: 17px;
+  }
+
+  main .sec-der p {
+    font-size: 13px;
+  }
+  main .fa-horizontal-rule {
+    font-size: 50px;
+  }
+}
+@media (max-width: 450px) {
+  body {
+    max-width: 100%;
+  }
+  header .header-titulo {
+    font-size: 22px;
+  }
+  header .header-subTitulo {
+    font-size: 9px;
+    margin-top: 20px;
+  }
+  main .sec-izq {
+    width: 40%;
+  }
+  main .sec-der {
+    width: 60%;
+  }
+  main .sec-izq .titulo {
+    font-size: 12px;
+  }
+  main .sec-izq li {
+    font-size: 7px;
+  }
+  main .sec-izq .descarga-CV {
+    font-size: 10px;
+  }
+  main .sec-der .titulo {
+    font-size: 15px;
+  }
+
+  main .sec-der li {
+    font-size: 12px;
+  }
+  main .sec-der h3 {
+    font-size: 11px;
+  }
+
+  main .sec-der h4 {
+    font-size: 12px;
+  }
+
+  main .sec-der p {
+    font-size: 10px;
+  }
+  main .fa-horizontal-rule {
+    font-size: 30px;
+  }
+}
