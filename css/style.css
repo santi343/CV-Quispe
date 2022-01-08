@@ -283,10 +283,6 @@ main .sec-der div {
     font-size: 13px;
     margin-top: 20px;
   }
-  main .sec-izq,
-  main .sec-der {
-    padding: 10px;
-  }
   main .sec-izq {
     width: 45%;
   }
@@ -334,6 +330,10 @@ main .sec-der div {
   header .header-subTitulo {
     font-size: 9px;
     margin-top: 20px;
+  }
+  main .sec-izq,
+  main .sec-der {
+    padding: 10px;
   }
   main .sec-izq {
     width: 40%;
