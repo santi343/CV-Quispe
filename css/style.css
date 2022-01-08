@@ -283,6 +283,10 @@ main .sec-der div {
     font-size: 13px;
     margin-top: 20px;
   }
+  main .sec-izq,
+  main .sec-der {
+    padding: 10px;
+  }
   main .sec-izq {
     width: 45%;
   }
@@ -293,7 +297,7 @@ main .sec-der div {
     font-size: 17px;
   }
   main .sec-izq li {
-    font-size: 12px;
+    font-size: 16px;
   }
   main .sec-izq .descarga-CV {
     font-size: 13px;
